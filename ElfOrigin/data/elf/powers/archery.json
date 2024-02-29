@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_projectile_damage",
+	"name": "Elven Archery",
+    "description": "You deal extra ranged damage",
+    "damage_condition": {
+        "type": "origins:projectile"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 2
+    }
+}

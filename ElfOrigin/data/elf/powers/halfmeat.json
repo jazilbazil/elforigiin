@@ -1,0 +1,9 @@
+{
+    "type": "origins:prevent_item_use",
+	"name": "Friend of Animals",
+    "description": "You cannot eat meat",
+
+    "item_condition": {
+        "type": "origins:meat"
+    }
+}
