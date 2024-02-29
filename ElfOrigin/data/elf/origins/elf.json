@@ -3,6 +3,7 @@
         "elf:halfmeat",
         "elf:archery",
         "elf:forest",
+	"elf:desert",
         "elf:fall"
     ],
     "icon": "minecraft:oak_sapling",
