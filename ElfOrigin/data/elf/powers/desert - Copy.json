@@ -1,0 +1,22 @@
+{
+    "type": "origins:action_over_time",
+	"name": "Far From Nature",
+    "description": "You move slower in deserts",
+    "interval": 10,
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:category",
+            "category": "savanna"
+        }
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 10,
+            "show_particles": false,
+            "amplifier": 0
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+
+    "interval": 30,
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:category",
+            "category": "jungle"
+        }
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 60,
+            "show_particles": false,
+            "amplifier": 0
+        }
+    }
+}
