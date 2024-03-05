@@ -2,13 +2,15 @@
     "powers": [
         "elf:halfmeat",
         "elf:archery",
+        "elf:fall",
         "elf:forest",
-	"elf:jungle",
 	"elf:taiga",
+	"elf:jungle",
 	"elf:desert",
 	"elf:mesa",
-	"elf:savvana",
-        "elf:fall"
+	"elf:savanna",
+	"elf:particle"
+
     ],
     "icon": "minecraft:oak_sapling",
     "order": 10,

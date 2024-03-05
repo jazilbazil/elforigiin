@@ -1,5 +1,7 @@
 {
   "type": "origins:invulnerability",
+"name": "Elven Grace",
+    "description": "You take no fall damage",
   "damage_condition": {
     "type": "origins:name",
     "name": "fall"
