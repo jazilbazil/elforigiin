@@ -1,6 +1,7 @@
 {
     "type": "origins:action_over_time",
-
+	"name": "Jungle Dweller",
+    "description": "You move faster in Jungles",
     "interval": 30,
     "condition": {
         "type": "origins:biome",

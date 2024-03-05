@@ -1,6 +1,7 @@
 {
     "type": "origins:action_over_time",
-
+	"name": "Taiga Dweller",
+    "description": "You move faster in taigas",
     "interval": 30,
     "condition": {
         "type": "origins:biome",

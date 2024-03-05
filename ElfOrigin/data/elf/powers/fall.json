@@ -1,7 +1,7 @@
 {
-    "type": "origins:modify_falling",
-	"name": "Elven Grace",
-    "description": "You don't take fall damage"
-    "velocity": 0.08,
-    "take_fall_damage": false,
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  }
 }

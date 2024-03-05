@@ -1,7 +1,7 @@
 {
     "type": "origins:action_over_time",
-	"name": "Far From Nature",
-    "description": "You move slower in deserts",
+	"name": "Desolate Mesa",
+    "description": "You move slower in mesas",
     "interval": 10,
     "condition": {
         "type": "origins:biome",
@@ -14,7 +14,7 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:slowness",
-            "duration": 10,
+            "duration": 15,
             "show_particles": false,
             "amplifier": 0
         }
